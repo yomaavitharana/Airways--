@@ -1,0 +1,35 @@
+<html>
+<head>
+		<title>Cardpayment</title>
+		<link rel="stylesheet" href="../css/bookflight.css">
+</head>
+<body>
+	
+
+	<div class ="back1">
+		<table class="tbl">
+			<tr>
+				<tr>
+					<form align="right">
+									 Payment Methods:<br><br>
+									 <input type="radio" name="pm" id="pm">VISA
+									  <input type="radio" name="pm" id="pm">Master<br><br>
+									  
+									  Card Number:<br>
+									 <input type="text" id="num" name="num" style="width:200px;" pattern="[0-9]{12}" placeholder="xxxx-xxxx-xxxx" required><br><br>
+									 
+									 Expire Date:<br>
+									 <input type="date" id="dte" name="dte" required><br><br>
+									 
+									 CVV:
+									 <input type="text" id="v" name="v" style="width:200px;" pattern="[0-9]{3,4}" required><br><br>
+									  
+									<input type="submit" id="btn1" name="btn1" value="submit" >
+									
+					</form>
+				<tr>
+			</tr>
+		</table>
+	</div>	
+</body>
+</html>

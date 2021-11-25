@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modify Booking</title>
+<link rel = "stylesheet" href = "../css/stylemyprjct.css">
+<script src = "../js/myprject.js"></script>
+</head>
+<body>
+<hr>
+<header>
+<div class = "back">
+<table width = "100%">
+<tr>
+<th>
+<div class = "topnav">
+<img src = "../images/prjectlogo.jpg" alt ="AIRWAYS" height = "200px" width = "200px" align = "left">
+<br><br><br><br><br><br><br><br>
+<a href = "Home.html">Home</a>
+<a href = "bookflight.html">Book</a>
+<a href = "visa.html">Manage</a>
+<a href = "#">Loyality</a>
+<a href = "desti/desti.html">Destination</a>
+<a href = "support.html">Help</a>
+<a href = "#">Contact</a>
+<form align = "right">
+<label for = "language">Language :</label>
+<select name = "language" id = "language">
+<option value = "Arabic">Arabic</option>
+<option value = "Bengali">Bengali</option>
+<option value = "Hindi">Hindi</option>
+</select>
+</form>
+<input class = "srch" style = "float:right; margin-right:10px; margin-bottom:2px; padding:7px 6px;" type = "search" placeholder = "Search...">
+</div>
+</th>
+</tr>
+</table>
+</div>
+
+<fieldset>
+<legend><h2>My Booking</h2></legend>
+<form>
+<input type = "text" id = "refename" name = "refename" style = "width : 300px;" placeholder = "Booking reference" required><br><br>
+<input type = "text" id = "pasname" name = "pasname" style = "width : 300px;" placeholder = "Last name of the passenger" required><br><br>
+<input type = "submit" id = "sbtn" name = "sbtn" value = "Find my booking" class = "stylesubmit">
+</form>
+</fieldset>
+<br><br><br>
+<hr>
+<h2>If you want to modify your previous booking details,fill in the form given below.</h2><br>
+<div class = "divcls">
+<form action = "#" target = "_self" method = "GET">
+<label>Flight number :</label><br><br>
+<input type = "radio" id = "Flight number" name = "Flight number" checked>802<br>
+<input type = "radio" id = "Flight number" name = "Flight number">823<br>
+<input type = "radio" id = "Flight number" name = "Flight number">862<br>
+<input type = "radio" id = "Flight number" name = "Flight number">914<br>
+<input type = "radio" id = "Flight number" name = "Flight number">948
+<br><br><br>
+<label>Date :</label><br><br>
+<input type = "date" required><br><br><br>
+<label>Class :</label><br><br>
+<input type = "radio" id = "Class" name = "Class" checked>First class<br>
+<input type = "radio" id = "Class" name = "Class">Business class<br>
+<input type = "radio" id = "Class" name = "Class">Economy class
+<br><br><br>
+<label>Start :</label><br><br>
+<input type = "text" id = "stname" name = "stname" style = "width : 500px;" placeholder = "Enter the place of starting your journey" required><br><br><br>
+<label>Destination :</label><br><br>
+<input type = "text" id = "dstname" name = "dstname" style = "width : 500px;" placeholder = "Enter your destination" required><br><br><br>
+<label>Accept if any additional charges</label>
+<input type = "checkbox" id = "adcharges" name = "adcharges" required onclick = "enableSubbtn()"><br><br><br>
+<input type = "submit" id = "bttn1" name = "bttn1" value = "Submit" class = "stylesubmit" disabled>
+</form>
+</div>
+<footer>
+<img src = "../images/prjectlogo.jpg" alt = "AIRWAYS" height = "50px" width = "50px">
+<br>Powered By Adikt<br>
+<h4>2020|All Rights Reserved</h4>
+</footer>
+</body>
+</html>

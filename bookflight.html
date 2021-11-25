@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>book flight</title>
+		<link  rel="stylesheet" href="../css/bookflight.css">
+		
+</head>
+
+<body>
+	<!-- this is the header section of the web page-->
+				<hr>
+		<header>
+		<div class="back">
+		<table width="100%">
+			<tr>
+				<th>
+					
+			<div class="topnav">
+				<img src="../images/logo.jpeg " alt="AIRWAYS" height="200px" width="200px" align ="left"></img><br><br><br><br><br><br><br><br>
+				
+					<a href="Home.html">Home</a> 
+					<a class ="active" href="bookflight.html">Book</a> 
+					<a href="visa.html">Manage</a>
+					<a href="#">Loyalaty</a>
+					<a href="desti/desti.html">Destination</a>
+					<a  href="support.html">Help</a>
+					<a href="#">Contact</a>
+				<form align=right action="#" method="get">
+					<label for="language" >Language:</label>
+						<select name="language" id="language" >
+							<option value="Arabic">Arabic</option>
+							<option value="Bengali">Bengali</option>
+							<option value="Hindi">Hindi</option>
+							<option value="English">English</option>
+							<option value="German">German</option>
+							<option value="Russian">Russian</option>
+							<option value="Japanese">Japanese</option>
+						</select>
+				</form>
+					<input class="srch" style="float: right;  margin-right: 10px; margin-bottom:2px; padding: 7px 6px;" type="search" placeholder="search...">
+				
+			</div>
+				</th>
+			</tr>
+		</table>
+		</div>	
+		</header>
+				<h2 ><u>Book Flight</u></h2>
+				<hr>
+				<div class="back1">
+					<table class="tbl" >
+						<tr>
+							<th>
+								<form align="left" ">
+									FROM:<br>
+									<input type="text" id="frm" name="frm" style="width:200px;"  placeholder="country" required><br><br>
+									<input type="text" id="frm" name="frm" style="width:200px;"  placeholder="city" required><br><br><br><br>
+									
+									TO:<br>
+									<input type="text" id="to" name="to" style="width:200px;"  placeholder="Enter your destination" required><br><br>
+									
+									<input type="radio" id="tkt" name="tkt"  required>Return
+									<input type="radio" id="tkt" name="tkt"  required>One-way<br><br><br><br>
+									
+									Depart:
+									<input type="date" id="date" name="date" style="width:200px;" required>
+									
+									Return:
+									<input type="date" id="date" name="date" style="width:200px;" required><br><br><br><br>
+									
+									<label for="typ" >Class-type:</label>
+									<select name="typ" id="typ">
+										<option value="Economy">Economy</option>
+										<option value="Bussiness">bussiness</option>
+								
+									</select>
+									<br><br><br><br>
+									Accept Privacy policy Terms<br>
+									<input type="checkbox" id="terms" name="terms"  required onclick="enableButton()"><br><br>
+						
+									<input type="submit" id="btn1" name="btn1" value="submit" ><br><br>
+									
+									<p><a class ="rounded" href="cardpayment.html" style="margin-left: 200px">Add Card Payments</p>
+									
+									
+								</form>
+								
+							</th>
+						</tr>
+				</table>
+			</div>
+			
+			<hr>
+		 <footer>
+			<img src="../images/logo.jpeg" align="center" width="100px" height="100px">
+			<p>Powerd By Adkit</p>
+			<p><h3>2020|All Right Reserved</h3></p>
+		</footer>
+</body>
+</html>
