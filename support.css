@@ -1,0 +1,96 @@
+.body{
+	background-image:url('../images/helpandsupport.png');
+}
+
+.back{
+	background-image:url('../images/cover.jpeg');
+}
+hr {
+    border-top: 2px solid gold;
+}
+
+* {
+    box-sizing: border-box
+}
+.srch {
+    border-radius: 4px 4px 4px 4px;
+}
+.topnav{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+}
+
+.topnav a{
+	float:left;
+	margin-bottom:5px;
+	width:100px;
+	height:40px;
+	background-color:black;
+	opacity:.8;
+	text-align:center;
+	text-decoration:none;
+	color:yellow;
+	
+}
+
+
+.topnav a:hover{
+	background-color:grey;
+}
+
+.active {
+    background-color: #717171;
+	border-radius:3px;
+}
+
+
+
+.btn1{
+	margin: 8px 4px 4px 4px;
+	width:18%;
+	height:30PX;
+	background-color:black;
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+	float:center;
+}
+
+.text1{
+	font-size: 20px;
+	font-family:Georgia;
+	color:brown;
+	font-weight:italic;
+	text-decoration:none;
+	border:1px;
+	opacity:.9;
+	border-color:red;
+	background-color:#99e6ff;
+	
+}
+
+.btn1 a:hover{
+	background-color:green;
+}
+
+
+.text2{
+	font-size: 14px;
+	color:black;
+	
+}
+.img1{
+	width:275px;
+	height:183px;
+	
+	
+}
+footer {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+	opacity:.9
+}

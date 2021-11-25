@@ -1,0 +1,164 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image: url(../images/cover.png);
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+	background-image: url(../images/baggage.jpg);
+	background-color:#fee8ac;
+	background-position: center;
+	height: 200vh;
+	background-size: cover;
+ 
+}
+
+/*header buttons*/
+/*
+	div{
+		background-color: black;
+		height: 55px;
+	}*/
+	
+	/*div ul{
+		border: 3px solid #f8d965;
+		height : 50px;
+	}*/
+	
+	/*header buttons*/
+
+	div{
+		background-color: black;
+		height: 55px;
+	}
+	
+	/*div ul{
+		border: 3px solid #f8d965;
+		height : 50px;
+	}*/
+	
+	div ul li{
+		list-style-type: none;
+		width: 150px;
+		float: left;
+		border-right: 1px solid #fdb800;
+		text-align: center;
+
+	}
+
+	li a {
+		text-decoration: none;
+		color: white;
+		font-family:Century Gothic;
+		line-height: 50px;
+		display: block;
+		font-weight:bold;
+	}
+
+	li a:hover {
+		background-color: #fdb800;
+		color : white;
+	}
+	
+
+			/*Navigation path*/
+			
+			nav {
+					background-color: #FFFFE0;
+					height: 38px;
+			}
+			nav ul li{
+					list-style-type: none;
+					width: 150px;
+					float: left;
+					border-right: 1px solid #fdb800;
+					text-align: center;
+
+				}
+				
+			nav li a {
+					text-decoration: none;
+					color: Black;
+					font-family:Century Gothic;
+					line-height: 38px;
+					display: block;
+					font-weight:bold;
+				}
+				
+			li a:hover {
+					background-color: #fdb800;
+					color : white;
+				}	
+				
+		
+.button {
+  border: none;
+  color: white;
+  padding: 30px 45px;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonA {
+  border: none;
+  color: black;
+  padding: 30px 45px;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+		
+	a{
+	font-family:Comic Sans MS;
+   color: black;
+   font-weight:bold;
+   font-size: 18px;
+   text-align: left;
+}
+
+	
+	h1{
+		font-family:Arial;
+		margin-bottom:10px;
+		color:black;
+	}
+	h3{
+		font-family:calibri light;
+		margin-top:10px;
+		color:black;
+
+	}
+	h2{
+		font-size:28px;
+		font-family:calibri light;
+		margin-top:10px;
+		color:black;
+		
+	}
+	
+	
+	footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #586060;
+  color:#FFDA00 ;
+  
+}
+
+	

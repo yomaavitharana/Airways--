@@ -1,0 +1,291 @@
+header{
+	background-image: url(../images/cover.png);
+	height: 45vh;
+	background-size: cover;
+	background-position: center;
+}
+body{
+	background-image: url(../images/background.png);
+	background-position: center;
+	height: 400vh;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.nav{
+background-color: black;
+height: 55px;
+width: 1140px;
+margin:22px;
+
+}
+.nav ul{
+border: 3px solid black;
+height : 50px;
+}
+.nav ul li{
+list-style-type: none;
+width: 150px;
+float: left;
+text-align: center;
+}
+ul li.active  a{
+	background-color:#fdb800 ;
+	color: black;
+}
+li a {
+text-decoration: none;
+color: white;
+font-family:Century Gothic;
+line-height: 50px;
+font-size:20px;
+display: block;
+font-weight:bold;
+}
+li a:hover {
+background-color: #fdb800;
+color : black;
+}
+#Animat {
+position:relative;
+height:400px;
+margin-top:100px;
+width:1500px
+
+}
+#Animat img {
+position:absolute;
+transition: opacity 1s ease-in-out;
+-webkit-transition: opacity 1s ease-in-out;
+left:0;
+-moz-transition: opacity 1s ease-in-out;
+
+}
+#Animat img.top:hover {
+  opacity:0;
+}
+.select2{
+width:100px;
+float:right;
+margin-right:25px;
+margin-top:20px;
+font-size:20px;
+color:#fdb800;
+background-color:black;
+}
+form {
+  background-color:#fdb800;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input {
+  all: unset;
+  font: 20px ;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+::placeholder {
+  color: black;
+  
+}
+button{
+width:100px;
+height:45px;
+background-color:black;
+font-size:20px;
+color:#fdb800;
+}
+.line{
+      font-size:100px;
+	  color:#fdb800;
+	  font-family:Helvetica;
+	  margin:0;
+	  }
+.line1{
+	font-size:75px;
+	margin:0;
+	font-family:Helvetica;
+	margin:0;
+}
+.line2{font-size:100px;
+	  color:#fdb800;
+	  font-family:Helvetica;
+	  margin:0;
+}
+.square{
+	
+position:relative;
+width: 936px;
+height:450px;
+background-image:url(../images/search.png);
+float:center;
+}
+.button {
+	
+ height:90px;
+ width:200px;
+  border: none;
+  color: white;
+  padding: 30px 45px;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+.button1 {width:200px;
+height:100px;
+
+	background-color: #FFCE00;} 
+.button2 {width:200px;
+height:100px; background-color: #000000;}
+.button3 {width:200px;
+height:100px;
+
+	background-color: #FFCE00;} 
+.button4 {width:200px;
+height:100px;
+	
+	background-color: #000000;}
+.button11{background-image:url(../images/hotel.png);
+           width:300px;
+height:200px;}
+.button12{background-image:url(../images/rent.png);
+background-color:#706F6D; width:300px;
+height:200px;}
+.button13{background-image:url(../images/act.png); 
+background-color:black; width:300px;
+height:200px;}
+.button14{background-image:url(../images/health.png); 
+background-color:#706F6D; width:300px;
+height:200px;}
+	
+.link{
+
+font-family:Comic Sans Ms;
+float:left;
+font-weight:bold;
+font-size: 18px;
+margin:0;
+}
+.select1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:15vh;
+	width:935px;
+	background:#fdb800;
+    font-family:Arial;
+
+}
+.login{
+	font-family:helvetica;
+color:white;
+}
+.modi{font-family:helvetica;
+color:white;}
+
+.bag{font-family:helvetica;
+color:white;
+}
+
+.submit{ 
+
+  color: white;
+  font-weight:bold;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.dep{
+	margin-right:0px;
+	margin-top:50px;
+	color:white;
+}
+
+.square1{
+	width:300px;
+	height:45px;
+	background-color:black;
+}
+.square2{
+	width:300px;
+	height:45px;
+	background-color:black;
+}
+.ari{
+	color:white;
+	
+}
+#Animat1 {
+height:500px;
+width:500px;
+display: inline-block;
+float:left;
+position:relative;
+margin-left:100px;
+margin-top:100px;
+}
+#Animat1 img {
+position:absolute;
+transition: opacity 1s ease-in-out;
+left:0;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+}
+#Animat1 img.top:hover {
+  opacity:0;
+}
+#Animat2 {
+height:500px;
+width:500px;
+display: inline-block;
+float:left;
+margin-top:100px;
+position:relative;
+margin-left:300px;
+}
+#Animat2 img {
+position:absolute;
+transition: opacity 1s ease-in-out;
+-webkit-transition: opacity 1s ease-in-out;
+left:0;
+-moz-transition: opacity 1s ease-in-out;
+
+}
+#Animat2 img.top:hover {
+  opacity:0;
+}
+
+
+.tex{
+	font-family:helvetica;
+	color:white;
+	font-size:50px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.foot{width:100%;
+height:1200px;
+background-color:white;
+
+
+}
+footer {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+	opacity:.9
+}
+
+

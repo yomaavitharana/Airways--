@@ -1,0 +1,67 @@
+.back{
+	background-image:url('../images/cover.jpeg');
+	
+}
+hr {
+    border-top: 2px solid gold;
+}
+
+
+
+.srch {
+    border-radius: 6px 6px 6px 6px;
+}
+.topnav{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	
+}
+
+.topnav a{
+	float:left;
+	margin-bottom:5px;
+	width:100px;
+	height:40px;
+	background-color:black;
+	opacity:.8;
+	text-align:center;
+	text-decoration:none;
+	color:yellow;
+	
+	
+}
+
+
+.topnav a:hover{
+	background-color:grey;
+	border-radius:3px;
+}
+
+.back1{
+	background-image:url(../images/flight.jpg);
+}
+.topnav a .active {
+    background-color: grey;
+}
+.tbl{
+	background-color:grey;
+	opacity:.8;
+	width:100%;
+}
+
+.rounded{
+	border:2px solid black;
+	border-radius:4px;
+	float:left;
+	padding: 6px 10px;
+	background-color:white;
+	text-decoration:none;
+}
+footer {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+	opacity:.9
+}
